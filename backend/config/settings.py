@@ -47,6 +47,10 @@ TEMPLATES = [
     },
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://hirewave-frontend-yoqb.onrender.com",
+]
 WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
